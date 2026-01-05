@@ -15,6 +15,9 @@ def main(train_path, eval_path, pred_path):
     x_train, y_train = util.load_dataset(train_path, add_intercept=True)
 
     # *** START CODE HERE ***
+    theta=np.zeroes((2,1))
+    for i in x:
+        
     # *** END CODE HERE ***
 
 
